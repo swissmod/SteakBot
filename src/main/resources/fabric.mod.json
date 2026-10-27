@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "steakbot",
+  "version": "1.0.0",
+  "name": "SteakBot",
+  "description": "Pulls steaks from a chest and lists them on /ah in small batches.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.steakbot.SteakBot"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
